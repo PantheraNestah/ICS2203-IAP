@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="site-tabs">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#" style="text-decoration: underline;">Feedback</a></li>
+                <li><a href="./details.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside></aside>
+    <main style="width: 100%;">
+        <section class="master-section">
+            <div class="form-wrapper">
+                <h1 class="form-title">Let's hear from you !</h1>
+                <form>
+                    <div class="form-area">
+                        <span class="input-fields">
+                            <label for="username">Name</label>
+                            <input type="text" name="username" id="username" placeholder="enter username" style="text-align: center;height: 28px;font-size: 15px;"/>
+                        </span>
+                        <span class="input-fields">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" placeholder="name@example.com" style="text-align: center;height: 28px;font-size: 15px;">
+                        </span>
+                        <span class="feedback-area">
+                            <label for="feedback">Feedback</label>
+                            <textarea name="feedback" id="feedback" cols="12" rows="8"></textarea>
+                        </span>
+                        <div>
+                            <p style="font-style: italic;">
+                                &quot; We greatly value and appreciate all users feedback &quot;
+                            </p>
+                        </div>
+                    </div>
+                    <div class="submit-btn-wrapper">
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="rights">
+            <span>niesta Biographers</span>
+            <span>copyrights &copy; 2023</span>
+        </div>
+    </footer>
+    <script src="../js/form-handle.js"></script>
+</body>
+</html>
